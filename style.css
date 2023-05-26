@@ -1,0 +1,196 @@
+
+*
+{
+    background-color: white;
+}
+.icons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content : flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: start;
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+.icons :hover
+{
+    cursor: pointer;
+    text-decoration: double;
+    transition: 1s;
+    text-decoration: underline;
+}
+.head-1
+   {
+    font-size: x-large;
+    font-weight: bolder;
+    font-size: 30px;
+    width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-stretch: expanded;
+    text-shadow: 2px 2px 2px;
+    display: inline-block;
+    margin-left: 400PX;
+    }
+    .span-1
+    {
+    color: green;
+
+    }
+    .span-2
+    {
+        color: skyblue;
+        
+    }
+    .span-3
+    {
+        color: violet;
+    }
+    .span-4
+    {
+        color: skyblue;
+    }
+    .span-5
+    {
+        color: red;
+    }
+    .span-6
+    {
+        color: skyblue;
+    }
+    .span-7
+    {
+        color: violet;
+    }
+    .span-8
+    {
+        color: skyblue;
+    }
+    
+
+
+.sub
+{
+    background-color: rgb(10, 17, 17);
+    text-decoration: underline;
+    text-decoration-color: rgb(165, 247, 72);
+    color: white;
+    margin-left: 10px;
+}
+
+.sub:hover
+{
+    cursor: pointer;
+    
+    background-color: greenyellow;
+    text-transform: capitalize;
+    transition: 1s;
+    margin-top: 20px;
+    text-align: left;
+    text-decoration: dotted;
+    text-decoration: underline;
+    color: white;   
+}
+
+.DP
+{
+    width: 200px;
+    height: 250px;
+    display: inline-block;
+    margin-top: 0px;
+    margin-left: 50px;
+    display: inline-block;
+    border-style: double;    
+}
+.DP:hover
+{
+    width: 230px;
+    height: 280px;
+    cursor: pointer;
+    
+}
+.contact
+{
+    display:flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: end;
+    margin-left: 1000px;
+    font-weight: 700;
+    color: rgb(165, 247, 72);
+    text-decoration: underline;
+}
+.contact:hover
+{
+    cursor: pointer;
+    text-shadow: none;
+    background-color: aquamarine;
+    text-shadow: 1px 1px 1px;
+}
+
+.Name
+{
+    color: orange;
+    text-decoration-line: underline;
+    margin-top: 0px;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: larger;
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 10, 10);
+    font-style: italic;
+}
+.disc
+{
+ font-style: italic;
+ width: 200px;   
+}
+.skills
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.container
+{
+    display: grid;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 750px;
+    grid: 20 px 50 px;
+    grid-template-columns: 150px 400px;
+    grid-template-rows: 30px 30px;
+    justify-content: space-between;
+}
+.education,.year
+{
+    
+    font-size: larger;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: lightskyblue;
+}
+
+.work
+{
+    display: grid;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 750px;
+    grid: 20 px 50 px;
+    grid-template-columns: 150px 400px;
+    grid-template-rows: 30px 30px 30px;
+    justify-content: space-between;
+}
+.experience,.position
+{
+    font-size: larger;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: skyblue;
+}
+h3
+{
+    margin-left: 850px;
+    text-decoration: underline;
+}
